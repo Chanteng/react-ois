@@ -1,38 +1,65 @@
-.App {
+.homebg {
+  background-color: rgb(20, 177, 169);
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(7, 54, 141, 0.8)),
+  url(./Images/LOGO.png); */
+  width: 100%;
+  height: 80vh;
+/* position: absolute;
+background-size: cover;
+background-repeat: no-repeat;  */
+/* width: 1500px;
+height: 1000px; */
+}
+
+
+.Typewriter {
+  color: white;
+  margin-top: 30vh;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.card-txt {
+  font-size: 30px;
+  font-weight: bolder;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav ul {
+  font-size: 20px;
+  margin-right: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ul li a {
   color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+ul li a:hover {
+  text-decoration: none;
+  color: blue
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ab-bg {
+  background: rgb(21, 21, 99);
+  height: 30vh;
+}
+
+.ab-txt {
+  color: white;
+  text-align: center;
+}
+
+.ab-txt p {
+  font-size: 18px;
+}
+
+.ab-img {
+  margin-top: 5vh;
 }

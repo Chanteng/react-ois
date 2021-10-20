@@ -1,0 +1,10 @@
+.homebg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(7, 54, 141, 0.8)),
+      url(/src/Images/LOGO.png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 1000px;
+    }
+    
